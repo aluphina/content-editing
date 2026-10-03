@@ -1,0 +1,177 @@
+{
+ "file": {
+  "format": {
+   "duration": "73.760000",
+   "bit_rate": "30899234"
+  },
+  "video": {
+   "codec_name": "h264",
+   "width": 1080,
+   "height": 1920,
+   "pix_fmt": "yuv420p",
+   "color_range": "tv",
+   "color_space": "bt709",
+   "color_transfer": "bt709",
+   "color_primaries": "bt709",
+   "r_frame_rate": "25/1",
+   "nb_frames": "1844"
+  },
+  "audio": "aac"
+ },
+ "loudness": {
+  "I_LUFS": -14.5,
+  "true_peak_dBFS": -3.8
+ },
+ "sync_ms": 0.0,
+ "speech": {
+  "ratio": 0.786,
+  "ref_words": 177,
+  "heard_words": 118,
+  "diffs": [
+   [
+    "replace",
+    "входит",
+    "ходит"
+   ],
+   [
+    "delete",
+    "не я интересуюсь edtech а к примеру мой опыт в образовательном проекте показал мне проблему персонализации обучения поэтому меня интересуют модули по learning technologies и design of learning environments не общее мне нравится этот профессор а именно исследования данного профессора помогают мне развить свой вопрос в том как технологии поддерживают обучение в определенной сфере в adult education к примеру",
+    ""
+   ],
+   [
+    "replace",
+    "поработать",
+    "бороться"
+   ]
+  ]
+ },
+ "levels": [
+  {
+   "n": 5,
+   "mode": "split",
+   "final_p1_50_99": [
+    66.6,
+    179.2,
+    246.6
+   ],
+   "plate_p1_50_99": [
+    66.6,
+    179.1,
+    246.6
+   ],
+   "clip0_pct": 0.138,
+   "clip255_pct": 3.748
+  },
+  {
+   "n": 200,
+   "mode": "split",
+   "final_p1_50_99": [
+    66.3,
+    175.5,
+    243.2
+   ],
+   "plate_p1_50_99": [
+    66.3,
+    175.3,
+    243.0
+   ],
+   "clip0_pct": 0.112,
+   "clip255_pct": 3.417
+  },
+  {
+   "n": 560,
+   "mode": "full",
+   "final_p1_50_99": [
+    56.8,
+    163.3,
+    252.3
+   ],
+   "plate_p1_50_99": [
+    56.9,
+    163.4,
+    252.4
+   ],
+   "clip0_pct": 0.026,
+   "clip255_pct": 4.995
+  },
+  {
+   "n": 1270,
+   "mode": "full",
+   "final_p1_50_99": [
+    47.7,
+    168.6,
+    248.0
+   ],
+   "plate_p1_50_99": [
+    47.6,
+    162.4,
+    248.0
+   ],
+   "clip0_pct": 0.338,
+   "clip255_pct": 6.563
+  },
+  {
+   "n": 1500,
+   "mode": "split",
+   "final_p1_50_99": [
+    48.7,
+    163.1,
+    245.6
+   ],
+   "plate_p1_50_99": [
+    48.6,
+    163.1,
+    245.4
+   ],
+   "clip0_pct": 0.109,
+   "clip255_pct": 0.235
+  },
+  {
+   "n": 1800,
+   "mode": "split",
+   "final_p1_50_99": [
+    63.9,
+    177.3,
+    244.2
+   ],
+   "plate_p1_50_99": [
+    64.0,
+    177.4,
+    244.0
+   ],
+   "clip0_pct": 0.095,
+   "clip255_pct": 4.213
+  }
+ ],
+ "sharpness_face": [
+  {
+   "n": 5,
+   "lapvar_ratio_final_vs_plate": 1.259
+  },
+  {
+   "n": 200,
+   "lapvar_ratio_final_vs_plate": 1.154
+  },
+  {
+   "n": 560,
+   "lapvar_ratio_final_vs_plate": 1.543
+  },
+  {
+   "n": 1270,
+   "lapvar_ratio_final_vs_plate": 1.149
+  },
+  {
+   "n": 1500,
+   "lapvar_ratio_final_vs_plate": 1.117
+  },
+  {
+   "n": 1800,
+   "lapvar_ratio_final_vs_plate": 1.545
+  }
+ ],
+ "subtitle_swap_frame_error": {
+  "n": 104,
+  "within_1_frame": 66,
+  "max_abs": 2
+ }
+}

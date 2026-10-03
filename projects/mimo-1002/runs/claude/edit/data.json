@@ -35,7 +35,8 @@
   "green_to_olive": 1.5,
   "blue_desat": 0.45,
   "saturation": 1.06,
-  "rolloff_knee": 0.88
+  "rolloff_knee": 0.88,
+  "enabled": false
  },
  "colors": {
   "white": "#FFFFFF",

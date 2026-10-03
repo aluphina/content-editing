@@ -24,6 +24,7 @@ def wt(i, expect=None):
 def att(i): return round(words[i]["t0"], 3)
 
 # ---------------------------------------------------------------- look
+data["grade"]["enabled"] = False   # user: no colour grade, too yellow
 data["colors"] = {"white": "#FFFFFF", "accent": "#F2A33A", "accent2": "#E9D9C0", "dark": "#1B1A19",
                   "dark2": "#262321", "stroke": "#3A3531", "muted": "#9C948B", "shadow": "rgba(0,0,0,0.45)"}
 data["fonts"] = {"accent": {"family": "Unbounded", "file": "fonts/Unbounded-VF.ttf"},
