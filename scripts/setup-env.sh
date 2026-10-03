@@ -9,6 +9,17 @@ if [ "$(hyperframes --version 2>/dev/null)" != "$HF_VERSION" ]; then
   npm i -g "hyperframes@$HF_VERSION"
 fi
 hyperframes browser ensure
+
+# Cloud sessions: make headless Chrome trust the agent proxy CA (TLS checks stay on).
+PROXY_CA=/root/.ccr/agent-proxy-ca.crt
+if [ -f "$PROXY_CA" ]; then
+  command -v certutil >/dev/null || apt-get install -y libnss3-tools >/dev/null \
+    || { apt-get update -qq && apt-get install -y libnss3-tools >/dev/null; }
+  mkdir -p ~/.pki/nssdb
+  [ -f ~/.pki/nssdb/cert9.db ] || certutil -d sql:"$HOME/.pki/nssdb" -N --empty-password
+  certutil -d sql:"$HOME/.pki/nssdb" -L -n ccr-proxy >/dev/null 2>&1 \
+    || certutil -d sql:"$HOME/.pki/nssdb" -A -t "C,," -n ccr-proxy -i "$PROXY_CA"
+fi
 [ -d ~/.claude/skills/hyperframes ] || hyperframes skills
 
 if ! command -v whisper-cli >/dev/null; then
