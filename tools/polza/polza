@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Wrapper: route Node fetch through HTTPS_PROXY when one is set (cloud sessions).
+DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+[ -n "$HTTPS_PROXY$https_proxy" ] && export NODE_USE_ENV_PROXY=1
+NODE_NO_WARNINGS=1 exec node "$DIR/polza.mjs" "$@"
