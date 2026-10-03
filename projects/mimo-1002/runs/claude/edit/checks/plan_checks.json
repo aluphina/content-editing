@@ -1,0 +1,64 @@
+{
+ "push": [
+  {
+   "seg": 8,
+   "amplitude_pct": 31.8,
+   "peak_pct_per_frame": 0.917,
+   "max_rate_step": 0.0603,
+   "within_one_segment": true,
+   "ok": true
+  }
+ ],
+ "split": {
+  "opens": [
+   {
+    "open": [
+     52.75,
+     53.95
+    ],
+    "peak_shift_pct_h_per_frame": 1.54,
+    "peak_line_pct_h_per_frame": 2.3,
+    "duration": 1.2
+   }
+  ],
+  "frames_line_over_head": 3,
+  "worst": [
+   [
+    61,
+    -124.9
+   ],
+   [
+    62,
+    -124.9
+   ],
+   [
+    98,
+    -121.9
+   ]
+  ]
+ },
+ "full_cuts": [
+  {
+   "t": 50.76,
+   "z_before": 1.0,
+   "z_after": 1.0,
+   "diff_pct": 0.0
+  },
+  {
+   "t": 52.12,
+   "z_before": 1.0,
+   "z_after": 1.0,
+   "diff_pct": 0.0
+  }
+ ],
+ "density": {
+  "events": 51,
+  "max_gap": [
+   3.31,
+   14.58,
+   "window: Хочу внести вклад в общество"
+  ],
+  "mean_gap": 1.46,
+  "gaps_over_4s": []
+ }
+}

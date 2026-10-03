@@ -1,1 +1,14 @@
 projects/*/takes/
+# heavy montage intermediates and outputs (rebuilt by scripts, too big for git)
+projects/*/runs/*/edit/plate/
+projects/*/runs/*/edit/matte/
+projects/*/runs/*/edit/audio/
+projects/*/runs/*/edit/comp/*.mov
+projects/*/runs/*/edit/comp/*/snapshots/
+projects/*/runs/*/edit/*.mp4
+projects/*/runs/*/edit/*.mov
+projects/*/runs/*/edit/*.npy
+projects/*/runs/*/edit/frames/*.mp4
+projects/*/runs/*/out/
+projects/*/runs/*/edit/plate.log
+projects/*/runs/*/edit/grade/src_*.png
