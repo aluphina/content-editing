@@ -225,7 +225,7 @@ const ITEMS = {
     idea:'Вместо дверей — открытый арочный проём 1,2 м, откосы в шалфейном цвете. Маленький холл перед спальней, детской и ванной остаётся, но открывать ничего не нужно: удобно с ребёнком на руках.',
     budget:'Арку делают из гипсокартона, когда ставят перегородку. Откосы покрасить в шалфейный самим — цвет из видео почти бесплатно.'},
   curtains:{zone:'Вся квартира',name:'Шторы от потолка до пола',tag:'copy',tall:true,b:[60e3,130e3],l:[250e3,500e3],
-    idea:'Льняные шторы на потолочном карнизе: тауп в спальне, светлые в детской — с плотной подкладкой для дневного сна.',
+    idea:'В детской льняные шторы до пола с плотной подкладкой для дневного сна. В спальне рулонная штора: обычные шторы падали бы на длинный стол у окна.',
     budget:'Потолочный карниз и шторы до пола. Высота делает недорогую ткань похожей на пошив на заказ.'},
   rugs:{zone:'Вся квартира',name:'Ковры',tag:'copy',b:[60e3,150e3],l:[300e3,700e3],
     idea:'Джутовый ковёр в кухне-гостиной, мягкий под кроватью в спальне.',
@@ -271,18 +271,18 @@ const ITEMS = {
   nightstands:{zone:'Спальня',name:'Чёрные тумбочки',tag:'diy',b:[30e3,70e3],l:[250e3,450e3],
     idea:'Чёрные прикроватные тумбы на точёных ножках с деревянным ящиком.',
     budget:'Любые небольшие б/у тумбочки на точёных ножках, покрасить в чёрный сатин.'},
-  desk:{zone:'Спальня',name:'Рабочее место у окна',tag:'spend',b:[100e3,220e3],l:[400e3,800e3],
-    idea:'Основное рабочее место — в дальней тихой спальне, у окна, свет слева. Дверь можно закрыть на время звонков, пока дочка дома.',
-    budget:'Столешница на опорах 120 × 60 см и хороший стул (60–150 тыс. ₸): на стуле не экономьте. Розетки и интернет-кабель выведите сюда заранее.'},
-  closet:{zone:'Спальня',name:'Шкаф в спальне',tag:'copy',b:[250e3,400e3],l:[800e3,1.3e6],
-    idea:'Встроенный шкаф у двери, как на плане застройщика.',
-    budget:'Шкаф до потолка с фасадами под дуб, как кухня: можно заказать у одного производителя.'},
+  desk:{zone:'Спальня',name:'Длинный стол у окна: работа и косметика',tag:'spend',b:[150e3,320e3],l:[600e3,1.2e6],
+    idea:'Столешница 3 м вдоль всего окна, как широкий подоконник. Слева работа: ноутбук, лампа, кресло — вы смотрите во двор, а не в стену. Справа зона для косметики: круглое зеркало с подсветкой, органайзеры, ящики и пуф. Одна столешница — две зоны, дверь закрывается на время звонков.',
+    budget:'Столешница из мебельного щита дуба или ЛДСП 38 мм на заказ, на трёх опорах. Под окном батарея — в столешнице нужна решётка или прорези, иначе зимой окно запотевает. Ноутбук вместо большого монитора: вид из окна не закрыт. Главная трата — удобное кресло (60–150 тыс. ₸).'},
+  walkin:{zone:'Спальня',name:'Гардеробная зона',tag:'copy',b:[250e3,500e3],l:[900e3,1.6e6],
+    idea:'У двери, за изголовьем кровати: лёгкая перегородка и шалфейная льняная штора на входе. Внутри штанга, полки до потолка, ящики, полки для обуви сбоку и зеркало в полный рост. Около 2,7 м². Это гардеробная зона, а не отдельная комната: проход 75–80 см, хранение по одной стене плюс узкие полки сбоку.',
+    budget:'Металлическая гардеробная система (штанги и полки на рейках) вместо корпусного шкафа — в 2–3 раза дешевле. Перегородка из гипсокартона 2 м. Добавьте свет и вентиляционную решётку, чтобы одежда «дышала».'},
   'sideboard-bed':{zone:'Детская',name:'Винтажный комод для детских вещей',tag:'hunt',b:[50e3,120e3],l:[400e3,1e6],
     idea:'Тиковый комод 60–70-х: пока дочка маленькая, вся её одежда помещается сюда, а шкаф не нужен.',
     budget:'Такие комоды часто продают б/у недорого. Почистить, покрыть маслом и обязательно закрепить к стене.'},
-  mirror:{zone:'Спальня',name:'Напольное зеркало',tag:'copy',b:[35e3,80e3],l:[200e3,400e3],
-    idea:'Высокое зеркало в деревянной раме неровной формы.',
-    budget:'Волнистые зеркала часто копируют. Выбирайте с деревянной рамой.'},
+  mirror:{zone:'Спальня',name:'Зеркало в полный рост',tag:'copy',b:[25e3,60e3],l:[200e3,400e3],
+    idea:'Внутри гардеробной, на перегородке: одеваетесь и сразу смотрите в зеркало.',
+    budget:'Простое зеркальное полотно на стену, без рамы — самое дешёвое.'},
   'chandelier-bed':{zone:'Спальня',name:'Розовая люстра-лепестки',tag:'copy',b:[60e3,150e3],l:[500e3,1.2e6],
     idea:'Та самая розовая люстра из видео, здесь над кроватью.',
     budget:'Ищите «люстра мурано лепестки» в розовом стекле. Не акрил.'},
@@ -291,7 +291,7 @@ const ITEMS = {
     idea:'Низкая кровать-домик Монтессори вдоль стены. В два года ребёнок сам залезает и не падает. Над крышей — гирлянда-ночник. Позже кровать можно поднять на ножки.',
     budget:'Каркас-домик 90 × 190 из сосны на Kaspi или у столяра. Деньги — в хороший детский матрас.'},
   namaz:{zone:'Спальня',name:'Уголок для намаза',tag:'diy',b:[40e3,100e3],l:[150e3,300e3],
-    idea:'У окна спальни, рядом с рабочим столом: самое тихое и чистое место в квартире, малышка не превращает коврик в игрушку. Полка для ковриков и Корана высоко на стене, мягкий свет.',
+    idea:'У изножья кровати, вдоль стены: свободный пол, коврик разворачиваете на время молитвы. Полка для ковриков и Корана на стене, мягкий свет. Спальня — самое тихое место в квартире.',
     budget:'Главное — свободное место, а не мебель: полка и хороший коврик. Из Астаны кибла примерно на 232°, это юго-запад. Точное направление проверьте приложением с компасом уже в квартире и разверните коврик.'},
   play:{zone:'Детская',name:'Игровая зона',tag:'copy',b:[60e3,150e3],l:[300e3,600e3],
     idea:'У окна, в самом светлом месте: круглый ковёр, вигвам, мягкий пуф. Остальной пол свободен — в 1,5–2 года бегать важнее, чем мебель.',
@@ -345,7 +345,7 @@ const VARIANTS = {
   v3:{tab:'Вариант 3', title:'Евротрешка, детская рядом с кухней', rec:true, cost:'Средний бюджет',
     rooms:[['kitchen','z-social','Кухня-гостиная','≈ 20 м²'],['klLow','z-social','',''],['living','z-kid','Детская','17,1 м²'],['bedroom','z-sleep','Спальня + работа','16,3 м²'],['loggia','z-social','Лоджия','+3,0 м²'],['bath','z-wet','Ванная','3,8'],['lobby','z-pass','Холл','3,1']],
     walls:BASE_WALLS.filter(w=>w[1]!==1.24), zline:null, removed:[[3.65,4.91,6.5,4.91],[3.65,1.24,6.95,1.24]], added:[[3.25,4.91,3.25,7.0]],
-    text:'Стена между кухней и коридором убирается: кухня, прихожая и часть коридора становятся кухней-гостиной. Окно и дверь на лоджию снимаются, и с лоджией она вырастает примерно до 20 м². Оставшийся кусок коридора — маленький холл за аркой. Детская — в светлой бывшей гостиной, рядом с кухней. Ваша спальня с рабочим местом и уголком для намаза — в дальней тихой комнате. Это вариант в 3D.',
+    text:'Стена между кухней и коридором убирается: кухня, прихожая и часть коридора становятся кухней-гостиной. Окно и дверь на лоджию снимаются, и с лоджией она вырастает примерно до 20 м². Оставшийся кусок коридора — маленький холл за аркой. Детская — в светлой бывшей гостиной, рядом с кухней. Ваша спальня — в дальней тихой комнате: гардеробная зона, длинный стол у окна для работы и косметики, уголок для намаза. Это вариант в 3D.',
     pros:['Длинного коридора больше нет','Двухлетнюю дочку слышно из кухни, до неё два шага','Самая светлая комната — для игр','Лоджия — часть кухни-гостиной: +3 м² и окно во всю ширину','Рабочее место в самой тихой комнате','Кухня и ванная не двигаются: стояки на месте'], cons:['Нужны проект и согласование','Детская через стену от кухни-гостиной, там шумнее','Лоджию нужно утеплить и поставить тёплое остекление']},
 };
 const WINDOWS = [[0.8,0,2.56,0],[3.75,0,6.85,0],[0.78,12.5,2.56,12.5]];
@@ -423,14 +423,14 @@ function renderPlan(){
       <h3>Что в какой комнате</h3>
       <ul class="check">
         <li><span><b>Детская:</b> сон, игры у окна, хранение. Больше ничего — свободный пол малышке нужнее мебели.</span></li>
-        <li><span><b>Спальня:</b> кровать, у окна рабочий стол и рядом уголок для намаза. Тихие занятия в тихой комнате.</span></li>
+        <li><span><b>Спальня:</b> гардеробная зона у двери, кровать, у изножья уголок для намаза, вдоль окна длинный стол — работа и косметика.</span></li>
         <li><span><b>Кухня-гостиная:</b> готовка, кофе, обеды за столом, диван.</span></li>
         <li><span><b>Лоджия:</b> теперь часть кухни-гостиной — скамья у окна, цветы, место для утреннего кофе.</span></li>
       </ul>
     </div>
     <div class="block">
       <h3>Где работать из дома</h3>
-      <p>Лучше всего — в спальне, у окна: дневной свет, дверь закрывается на время звонков. В кухне-гостиной с лоджией сосредоточиться трудно: там едят, играют и варят кофе.</p>
+      <p>За длинным столом у окна спальни: смотрите во двор, много дневного света, дверь закрывается на время звонков. В кухне-гостиной с лоджией сосредоточиться трудно: там едят, играют и варят кофе.</p>
     </div>
     <div class="block">
       <h3>Кофейный уголок</h3>
@@ -516,7 +516,8 @@ function renderTime(){
     </ol>
     <div class="block"><h3>До штукатурки отметить</h3>
       <ul class="check">
-        <li><span>Розетки и интернет у рабочего стола в спальне.</span></li>
+        <li><span>Над столешницей у окна спальни: 2–3 розетки и интернет для работы, ещё 2 для фена и плойки, питание для подсветки зеркала.</span></li>
+        <li><span>Решётка в столешнице над батареей и свет в гардеробной зоне.</span></li>
         <li><span>Тёплый пол и пара розеток на лоджии.</span></li>
         <li><span>Выводы под бра у кровати, на высоте 1,5–1,7 м.</span></li>
         <li><span>Точки под люстры: над обеденным столом и над кроватью.</span></li>
@@ -710,6 +711,7 @@ const WALLS=[
   {x1:3.65,z1:0,x2:3.65,z2:4.97,t:0.12,open:[]},
   {x1:3.65,z1:1.24,x2:6.8,z2:1.24,t:0.12,open:[{a:3.75,b:4.7,y0:0,y1:2.35},{a:4.7,b:6.75,y0:0.88,y1:2.35}]},
   {x1:-0.15,z1:4.91,x2:3.65,z2:4.91,t:0.12,open:[{a:2.3,b:3.1,y0:0,y1:2.1}]},
+  {x1:0,z1:8.46,x2:1.95,z2:8.46,t:0.08,open:[]},
   {x1:1.77,z1:4.97,x2:1.77,z2:6.93,t:0.1,open:[{a:5.75,b:6.45,y0:0,y1:2.1}]},
   {x1:3.25,z1:4.97,x2:3.25,z2:6.93,t:0.12,open:[{a:5.4,b:6.6,y0:0,y1:2.3}]}
 ];
@@ -770,7 +772,6 @@ function curtain(cx,width,height,color,z){
   B(width+0.05,0.03,0.06,M.white,cx,height+0.05,z,g);
 }
 curtain(0.5,0.55,2.7,'#EADBD2',0.12); curtain(2.85,0.55,2.7,'#EADBD2',0.12);
-curtain(0.45,0.55,2.7,'#8C7464',12.23); curtain(2.84,0.5,2.7,'#8C7464',12.23);
 
 function art(x,y,z,ry,w,h,tex,frame='#2B2422'){
   const g=item('art',x,y,z,ry); B(w,h,0.025,mat(frame,{roughness:0.5}),0,0,0.0125,g);
@@ -935,8 +936,8 @@ art(0.0,1.35,1.0,Math.PI/2,0.4,0.5,printTex,'#F4F1EA');
 art(3.59,1.5,3.4,-Math.PI/2,0.4,0.4,houseTex,'#F4F1EA');
 
 /* =============== PARENTS' BEDROOM (far, quiet room) =============== */
-{ const g=item('rugs',1.4,0,9.6); B(2.2,0.012,2.6,mat('#A08884',{map:rep(jute,3,3),roughness:1}),0,0.006,0,g).castShadow=false; }
-{ const g=item('bed',0,0,9.6,Math.PI/2);
+{ const g=item('rugs',1.3,0,9.76); B(2.2,0.012,2.4,mat('#A08884',{map:rep(jute,3,3),roughness:1}),0,0.006,0,g).castShadow=false; }
+{ const g=item('bed',0,0,9.76,Math.PI/2);
   const hb=(w,h,r)=>{ const s=new THREE.Shape(); s.moveTo(-w/2,0); s.lineTo(w/2,0); s.lineTo(w/2,h-r); s.quadraticCurveTo(w/2,h,w/2-r,h); s.lineTo(-w/2+r,h); s.quadraticCurveTo(-w/2,h,-w/2,h-r); s.closePath(); return s; };
   const head=new THREE.Mesh(new THREE.ExtrudeGeometry(hb(1.76,1.42,0.22),{depth:0.07,bevelEnabled:true,bevelSize:0.02,bevelThickness:0.02,bevelSegments:3,curveSegments:16}),M.velvet);
   head.position.set(0,0,0.03); head.castShadow=head.receiveShadow=true; g.add(head);
@@ -949,42 +950,68 @@ art(3.59,1.5,3.4,-Math.PI/2,0.4,0.4,houseTex,'#F4F1EA');
   const fm=mat('#ffffff',{map:floral,roughness:1});
   RB(0.48,0.42,0.13,0.07,fm,0.38,0.8,0.42,g).rotation.x=-0.25; RB(0.42,0.38,0.12,0.07,fm,-0.4,0.78,0.44,g).rotation.x=-0.3;
 }
-function nightstand(z,deco){ const g=item('nightstands',0,0,z,Math.PI/2);
+function nightstand(z,deco){ const g=item('nightstands',0,0,z,Math.PI/2); g.scale.set(0.82,1,1);
   for(const x of [-0.19,0.19]) for(const zz of [0.04,0.36]) LA(turned(0.5,0.018,4),M.black,x,0,zz,g,12);
   B(0.46,0.03,0.42,M.black,0,0.615,0.2,g); B(0.42,0.14,0.38,M.black,0,0.53,0.2,g);
   B(0.36,0.1,0.012,M.cherry,0,0.53,0.395,g); SP(0.012,M.brass,0,0.53,0.405,g);
   B(0.4,0.02,0.34,M.black,0,0.14,0.2,g);
-  if(deco==='apple'){ SP(0.05,mat('#C2463B',{roughness:0.4}),-0.08,0.68,0.25,g); B(0.24,0.06,0.18,mat('#2B2422'),0.08,0.66,0.18,g); B(0.22,0.03,0.16,mat('#D6588A'),0.08,0.705,0.18,g); }
+  if(deco==='apple'){ SP(0.05,mat('#C2463B',{roughness:0.4}),-0.08,0.68,0.25,g); B(0.24,0.06,0.18,mat('#2B2422'),0.08,0.66,0.18,g); }
   else B(0.2,0.05,0.15,mat('#3E4A3F'),0.05,0.655,0.2,g);
 }
-nightstand(8.4,'books'); nightstand(10.8,'apple');
+nightstand(8.7,'books'); nightstand(10.83,'apple');
 { const g=item('sconces'); const sh=new THREE.CylinderGeometry(0.12,0.04,0.2,24,1,true,0,Math.PI);
-  [[10.62,1.75,'#D21F1A',0xff5a40,0.13],[10.98,1.5,'#E7B21F',0xffc94a,0.09]].forEach(([z,y,c,lc,sc])=>{
+  [[10.83,1.65,'#D21F1A',0xff5a40,0.13],[8.7,1.65,'#E7B21F',0xffc94a,0.11]].forEach(([z,y,c,lc,sc])=>{
     const m=new THREE.Mesh(sh,new THREE.MeshStandardMaterial({color:c,emissive:c,emissiveIntensity:0.55,transparent:true,opacity:0.9,side:THREE.DoubleSide,roughness:0.2}));
     m.position.set(0.0,y,z); m.scale.setScalar(sc/0.12); g.add(m);
-    const l=new THREE.PointLight(lc,1.4,3,2); l.position.set(0.15,y+0.05,z); g.add(l); }); }
-{ // work desk by the window, light from the left
+    const l=new THREE.PointLight(lc,1.2,3,2); l.position.set(0.15,y+0.05,z); g.add(l); }); }
+art(0.0,1.95,9.76,Math.PI/2,0.5,0.4,houseTex,'#F4F1EA');
+{ // one long top along the whole window: work on the left, cosmetics on the right
   const g=item('desk');
-  B(0.6,0.03,0.95,M.oak,0.3,0.74,11.6,g); for(const z of [11.15,12.05]) B(0.56,0.72,0.03,M.black,0.3,0.37,z,g);
-  B(0.02,0.24,0.34,mat('#2a2a2a',{roughness:0.3}),0.12,0.9,11.6,g); B(0.24,0.012,0.34,mat('#2a2a2a'),0.38,0.76,11.6,g);
-  CY(0.06,0.07,0.02,M.brass,0.15,0.765,11.25,g); CY(0.006,0.006,0.35,M.brass,0.15,0.94,11.25,g,8); CY(0.03,0.09,0.08,mat('#E2BE3C'),0.15,1.12,11.25,g);
-  const c=new THREE.Group(); c.position.set(0.95,0,11.6); c.rotation.y=-Math.PI/2; g.add(c);
-  RB(0.46,0.08,0.44,0.03,M.cream,0,0.46,0,c); RB(0.44,0.42,0.06,0.03,M.cream,0,0.76,-0.22,c); CY(0.02,0.02,0.42,M.chrome,0,0.21,0,c,8); CY(0.25,0.25,0.02,M.chrome,0,0.02,0,c,16); }
-{ const g=item('closet'); B(1.85,2.4,0.6,M.oak,0.925,1.2,7.37,g); for(let i=0;i<3;i++){ B(0.61,2.36,0.02,M.oakFront,0.31+0.617*i,1.2,7.68,g); B(0.02,0.3,0.02,M.brass,0.55+0.617*i,1.1,7.7,g); } }
-art(3.12,1.5,9.6,-Math.PI/2,0.5,0.62,printTex,'#F4F1EA');
-{ const g=item('mirror',3.12,0,8.35,-Math.PI/2); const t=new THREE.Group(); t.position.set(0,0,0.16); t.rotation.x=-0.085; g.add(t);
-  const shp=(sx,sy)=>{ const s=new THREE.Shape(); s.moveTo(-0.33*sx,0); s.lineTo(0.33*sx,0); s.lineTo(0.33*sx,1.2*sy); s.bezierCurveTo(0.33*sx,1.65*sy,0.05*sx,1.85*sy,-0.12*sx,1.8*sy); s.bezierCurveTo(-0.3*sx,1.75*sy,-0.33*sx,1.6*sy,-0.33*sx,1.45*sy); s.closePath(); return s; };
-  const fr=new THREE.Mesh(new THREE.ExtrudeGeometry(shp(1,1),{depth:0.03,bevelEnabled:false,curveSegments:24}),M.walnut); fr.castShadow=true; t.add(fr);
-  const mi=new THREE.Mesh(new THREE.ShapeGeometry(shp(0.88,0.95),24),M.mirror); mi.position.set(0,0.05,0.032); t.add(mi); }
-{ // prayer corner by the bedroom window, next to the desk
+  B(1.6,0.42,0.07,M.white,1.67,0.38,12.29,g);
+  B(3.04,0.04,0.6,M.oak,1.56,0.75,12.05,g);
+  B(2.2,0.003,0.05,M.dark,1.6,0.771,12.28,g);
+  for(const x of [0.05,1.58,3.06]) B(0.03,0.73,0.56,M.oak,x,0.365,12.05,g);
+  // work side
+  B(0.3,0.012,0.22,mat('#2a2a2a'),0.75,0.82,12.0,g); const lid=B(0.3,0.2,0.008,mat('#2a2a2a',{roughness:0.3}),0.75,0.92,12.11,g); lid.rotation.x=-0.25;
+  B(0.26,0.04,0.2,M.oak,0.75,0.79,12.0,g);
+  CY(0.06,0.07,0.02,M.brass,0.2,0.78,12.15,g); CY(0.006,0.006,0.35,M.brass,0.2,0.95,12.15,g,8); CY(0.03,0.09,0.08,mat('#E2BE3C'),0.2,1.13,12.15,g);
+  CY(0.04,0.035,0.09,M.cream,1.2,0.815,11.9,g,14);
+  const c=new THREE.Group(); c.position.set(0.78,0,11.35); g.add(c);
+  RB(0.48,0.08,0.46,0.03,M.cream,0,0.46,0,c); RB(0.46,0.46,0.07,0.03,M.cream,0,0.78,-0.22,c); CY(0.02,0.02,0.42,M.chrome,0,0.21,0,c,8); CY(0.26,0.26,0.02,M.chrome,0,0.02,0,c,16);
+  // cosmetics side
+  CY(0.1,0.12,0.02,M.brass,2.35,0.78,12.15,g); CY(0.01,0.01,0.2,M.brass,2.35,0.88,12.15,g,8);
+  const mr=new THREE.Mesh(new THREE.CylinderGeometry(0.2,0.2,0.02,40),mat('#dfe7ea',{metalness:0.3,roughness:0.1})); mr.rotation.x=Math.PI/2; mr.position.set(2.35,1.18,12.15); g.add(mr);
+  const ring=new THREE.Mesh(new THREE.TorusGeometry(0.205,0.012,10,48),new THREE.MeshStandardMaterial({color:'#fff3d6',emissive:'#ffd9a0',emissiveIntensity:1.2})); ring.position.set(2.35,1.18,12.14); g.add(ring);
+  B(0.3,0.08,0.18,mat('#F1EDE6',{roughness:0.5}),1.95,0.81,12.05,g); [[1.88,'#E2A3B0'],[1.95,'#C9806B'],[2.02,'#F3E6D8']].forEach(([x,cc])=>CY(0.018,0.018,0.12,mat(cc,{roughness:0.3}),x,0.91,12.05,g,10));
+  B(0.45,0.55,0.55,M.oak,2.8,0.45,12.05,g); for(let i=0;i<3;i++) B(0.43,0.16,0.01,M.oakFront,2.8,0.27+i*0.18,11.77,g);
+  const pf=CY(0.22,0.22,0.42,mat('#8C3A47',{roughness:0.9}),2.3,0.21,11.4,g,28); }
+{ // roller blind instead of curtains: curtains would fall onto the long desk
+  const g=item('curtains'); B(1.9,0.07,0.07,M.white,1.67,2.52,12.27,g);
+  const f=new THREE.Mesh(new THREE.PlaneGeometry(1.84,0.62),mat('#D9CFC2',{roughness:1,side:THREE.DoubleSide})); f.position.set(1.67,2.18,12.27); g.add(f); }
+{ // walk-in wardrobe zone by the door, behind the headboard partition
+  const g=item('walkin');
+  const rod=CY(0.012,0.012,1.75,M.chrome,0.975,1.75,7.4,g,8); rod.rotation.z=Math.PI/2;
+  const cols=['#E9E1D2','#5E1A24','#C9B79C','#3E4A3F','#F3E6D8','#8C7464','#2B2422','#B4553E','#E2A3B0','#9DB3A4','#EAD9C4','#4E2E22'];
+  cols.forEach((cc,i)=>{ const h=0.75+((i*7)%4)*0.08; B(0.035,h,0.44,mat(cc,{roughness:1}),0.25+i*0.13,1.72-h/2,7.4,g); });
+  for(const y of [2.05,2.4]) B(1.85,0.02,0.55,M.oak,0.95,y,7.36,g);
+  for(let i=0;i<4;i++) B(0.35,0.22,0.4,mat(['#E9E1D2','#C9B79C','#8C7464','#F3E6D8'][i]),0.25+i*0.45,2.17,7.36,g);
+  B(0.9,0.6,0.5,M.oak,0.5,0.3,7.34,g); for(let i=0;i<2;i++) B(0.88,0.27,0.01,M.oakFront,0.5,0.16+i*0.29,7.6,g);
+  for(const y of [0.12,0.45,0.78,1.11,1.44]){ B(0.36,0.02,0.7,M.oak,0.18,y,8.05,g); for(let k=0;k<2;k++) B(0.26,0.12,0.26,mat(['#2B2422','#C9806B','#E9E1D2','#5E1A24'][(k+Math.round(y*10))%4]),0.18,y+0.07,7.85+k*0.38,g); }
+  B(0.55,1.6,0.01,M.mirror,1.35,0.95,8.41,g);
+  B(1.85,0.008,0.02,new THREE.MeshStandardMaterial({color:'#fff1d6',emissive:'#ffd9a0',emissiveIntensity:1}),0.95,2.03,7.65,g);
+  const cur=plain(); cur.userData.key='walkin'; TALL.push(cur); GROUPS.walkin.push(cur);
+  const geo=new THREE.PlaneGeometry(0.55,2.6,20,1), pos=geo.attributes.position; for(let i=0;i<pos.count;i++) pos.setZ(i,Math.sin(pos.getX(i)/0.55*Math.PI*8)*0.03); geo.computeVertexNormals();
+  const cm=new THREE.Mesh(geo,mat('#9DB3A4',{roughness:1,side:THREE.DoubleSide})); cm.rotation.y=Math.PI/2; cm.position.set(1.95,1.33,8.12); cm.castShadow=true; cur.add(cm);
+  const tr=CY(0.01,0.01,1.4,M.white,1.95,2.65,7.75,cur,6); tr.rotation.x=Math.PI/2; }
+{ // prayer corner at the foot of the bed, along the right wall
   const g=item('namaz');
-  const r=new THREE.Mesh(new THREE.BoxGeometry(0.7,0.01,1.2),mat('#ffffff',{map:namazTex,roughness:1})); r.position.set(2.0,0.006,11.55); r.receiveShadow=true; g.add(r);
-  B(0.24,0.03,0.9,M.oak,3.0,1.45,11.45,g);
-  for(let i=0;i<3;i++) B(0.2,0.06,0.3,mat(['#4F6B5A','#7A2B33','#E9D9B8'][i]),3.0,1.495+i*0.062,11.2,g);
-  B(0.04,0.18,0.22,mat('#3E4A3F'),3.05,1.555,11.55,g);
-  CY(0.06,0.06,0.16,new THREE.MeshStandardMaterial({color:'#F4D9A8',emissive:'#E8A84A',emissiveIntensity:0.8,roughness:0.4}),3.0,1.545,11.8,g,12);
-  const l=new THREE.PointLight(0xffc98a,0.9,2.5,2); l.position.set(2.85,1.4,11.6); g.add(l); }
-chandelier('chandelier-bed',1.4,9.6,['#EDB3BD','#F2C6CC','#E8A9B4']);
+  const r=new THREE.Mesh(new THREE.BoxGeometry(0.7,0.01,1.2),mat('#ffffff',{map:namazTex,roughness:1})); r.position.set(2.65,0.006,10.25); r.receiveShadow=true; g.add(r);
+  B(0.24,0.03,0.9,M.oak,3.0,1.45,10.2,g);
+  for(let i=0;i<3;i++) B(0.2,0.06,0.3,mat(['#4F6B5A','#7A2B33','#E9D9B8'][i]),3.0,1.495+i*0.062,9.95,g);
+  B(0.04,0.18,0.22,mat('#3E4A3F'),3.05,1.555,10.3,g);
+  CY(0.06,0.06,0.16,new THREE.MeshStandardMaterial({color:'#F4D9A8',emissive:'#E8A84A',emissiveIntensity:0.8,roughness:0.4}),3.0,1.545,10.55,g,12);
+  const l=new THREE.PointLight(0xffc98a,0.9,2.5,2); l.position.set(2.85,1.4,10.3); g.add(l); }
+chandelier('chandelier-bed',1.3,9.76,['#EDB3BD','#F2C6CC','#E8A9B4']);
 
 /* =============== BATHROOM =============== */
 { const g=item('bathroom');
@@ -996,7 +1023,7 @@ chandelier('chandelier-bed',1.4,9.6,['#EDB3BD','#F2C6CC','#E8A9B4']);
 
 /* ---------- labels ---------- */
 const labels=[];
-[['Кухня-гостиная','≈ 20 м²',5.6,5.6],['Детская','17,1 м²',2.2,3.6],['Спальня','16,3 м²',2.3,9.0],['Ванная','3,8 м²',0.9,6.25],['Холл','3,1 м²',2.5,5.9],['Лоджия','+3,0 м² к кухне',4.8,0.75]].forEach(([n,d,x,z])=>{
+[['Кухня-гостиная','≈ 20 м²',5.6,5.6],['Детская','17,1 м²',2.2,3.6],['Спальня','16,3 м²',2.45,9.2],['Гардеробная','≈ 2,7 м²',1.0,8.0],['Ванная','3,8 м²',0.9,6.25],['Холл','3,1 м²',2.5,5.9],['Лоджия','+3,0 м² к кухне',4.8,0.75]].forEach(([n,d,x,z])=>{
   const el=document.createElement('div'); el.className='room-tag'; el.innerHTML=`<b>${n}</b><span>${d}</span>`;
   const o=new CSS2DObject(el); o.position.set(x,0.15,z); scene.add(o); labels.push(o);
 });
@@ -1006,7 +1033,8 @@ const VIEWS={
   overview:{full:false},
   kl:{pos:[6.4,1.6,6.0],look:[4.3,1.0,2.0],full:true},
   coffee:{pos:[4.9,1.55,3.3],look:[5.3,0.95,1.5],full:true},
-  bedroom:{pos:[2.6,1.6,7.75],look:[0.6,0.9,10.6],full:true},
+  bedroom:{pos:[2.75,1.6,8.75],look:[1.1,0.9,11.9],full:true},
+  walkin:{pos:[2.6,1.55,7.8],look:[0.4,1.2,7.6],full:true},
   kids:{pos:[2.7,1.6,4.45],look:[0.8,0.7,1.5],full:true},
   hall:{pos:[6.4,1.6,5.5],look:[2.0,1.1,6.0],full:true}
 };
@@ -1051,6 +1079,7 @@ APP.highlight=(key,src)=>{
   const it=APP.ITEMS[key];
   if(it.tall && key!=='doors'){ goView(ZONE_VIEW[it.zone]||'bedroom'); APP.highlight(key,'scene'); return; }
   if(key==='coffee'){ goView('coffee'); APP.highlight(key,'scene'); return; }
+  if(key==='walkin'){ goView('walkin'); APP.highlight(key,'scene'); return; }
   if(key==='doors'){ goView('hall'); APP.highlight(key,'scene'); return; }
   if(!all.length) return;
   if(it.zone==='Вся квартира' && key!=='works'){ goView('overview'); return; }
